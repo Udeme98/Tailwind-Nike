@@ -10,8 +10,12 @@ export const PopularProductsCard = ({ imgURL, name, price }) => {
           (4.5)
         </p>
       </div>
-      <h3>{name}</h3>
-      <p>{price}</p>
+      <h3 className="text-2xl mt-2 leading-normal font-semibold font-palanquin">
+        {name}
+      </h3>
+      <p className="text-2xl font-montserrat mt-2 font-semibold text-coral-red leading-normal">
+        {price}
+      </p>
     </div>
   );
 };
