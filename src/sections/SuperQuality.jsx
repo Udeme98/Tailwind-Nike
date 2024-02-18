@@ -1,5 +1,5 @@
 const SuperQuality = () => {
-  return <div>SuperQuality</div>;
+  return <section id="about-us">SuperQuality</section>;
 };
 
 export default SuperQuality;
