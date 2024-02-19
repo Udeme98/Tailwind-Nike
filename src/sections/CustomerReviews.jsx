@@ -18,7 +18,7 @@ const CustomerReviews = () => {
             imgURL={review.imgURL}
             customerName={review.customerName}
             rating={review.rating}
-            feeding={review.feeding}
+            feedback={review.feedback}
           />
         ))}
       </div>
