@@ -1,4 +1,5 @@
 import { footerLogo } from "../assets/images";
+import { socialMedia } from "../constants";
 
 const Footer = () => {
   return (
@@ -12,6 +13,13 @@ const Footer = () => {
             Get shoes ready for the new term at your nearest Nike store. Find
             your perfect Size In Store. Get Rewards
           </p>
+          <div className="flex items-center gap-5 mt-8">
+            {socialMedia.map((icon) => (
+              <div className="flex justify-center items-center bg-white rounded-full w-12 h-12">
+                <img src={icon.src} alt={icon.alt} width={24} height={24} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
